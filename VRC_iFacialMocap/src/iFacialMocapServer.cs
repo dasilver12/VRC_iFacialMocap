@@ -12,7 +12,7 @@ namespace iFacialMocapTrackingModule
 {
     class iFacialMocapServer
     {
-        static private int _port = 49983; //port
+        static private int _port = 49982; //port
         private FacialMocapData _trackedData = new();
         private UdpClient? _udpListener, _udpClient;
         public bool isTracking;
